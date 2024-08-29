@@ -1,11 +1,11 @@
 main:
 
-  - company: <strong>Jul. 2023 - Present, Riemann 2012 Laboratory, Huawei</strong>
-    work1: 4D Label Auto-Annotation for Autonomous Driving
-    work2: Autonomous Driving Simulator
+  - company: <strong>Jul. 2023 - Present,  Riemann 2012 Laboratory,  Huawei</strong>
+    work1: <strong>·</strong>  4D Label Auto-Annotation for Autonomous Driving
+    work2: <strong>·</strong>  Autonomous Driving Simulator
     image: ./assets/img/huawei.png
 
-  - company: <strong>Apr. 2023 - Jul. 2023, Meituan Inc.</strong>
-    work1: Vision-Language Model Pre-training
-    work2: Vision-Language Models Applications
+  - company: <strong>Apr. 2023 - Jul. 2023,  Meituan Inc.</strong>
+    work1: <strong>·</strong>  Vision-Language Model Pre-training
+    work2: <strong>·</strong>  Vision-Language Models Applications
     image: ./assets/img/meituan.png
