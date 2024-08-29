@@ -48,10 +48,8 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">{{ link.company }}</div>
-      <ul>
-        <li class="author">{{ link.work1 }}</li>
-        <li class="author">{{ link.work2 }}</li>
-      </ul>
+      <div class="author">{{ link.work1 }}</div>
+      <div class="author">{{ link.work2 }}</div>
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
