@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a Ph.D. candidate in the Department of Control Science and Engineering at **Zhejiang University (ZJU)**, where I have been since 2021, under the supervision of [Prof. Yong Liu](https://april.zju.edu.cn/team/dr-yong-liu/) at the [April Lab](https://april.zju.edu.cn/).
+I am currently a Ph.D. candidate in the Department of Control Science and Engineering at **Zhejiang University (ZJU)**, where I have been since 2021, under the supervision of [Prof. Yong Liu](https://april.zju.edu.cn/team/dr-yong-liu/) at the [April Lab](https://april.zju.edu.cn/). Currently, I am interning at **Riemann Lab**, **Huawei**.
 
 ## Research Interests
 

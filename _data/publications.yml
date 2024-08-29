@@ -7,7 +7,7 @@ main:
     pdf: https://arxiv.org/pdf/2408.14197.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://arxiv.org/abs/2408.14197
-    notes: Under Review
+    # notes: Under Review
     image: ./assets/img/teaser_Drive_OccWorld.gif
 
   - title: "DQFormer: Towards Unified LiDAR Panoptic Segmentation with Decoupled Queries"
@@ -18,7 +18,7 @@ main:
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://arxiv.org/abs/2408.15813
-    notes: Under Review
+    # notes: Under Review
     image: ./assets/img/teaser_DQFormer.gif
 
   - title: "Camera-based 3d semantic scene completion with sparse guidance network"
@@ -28,7 +28,7 @@ main:
     pdf: https://arxiv.org/pdf/2312.05752.pdf
     code: https://github.com/Jieqianyu/SGN
     bibtex: https://arxiv.org/abs/2312.05752
-    notes: Under Review
+    # notes: Under Review
     image: ./assets/img/teaser_SGN.png
 
   - title: "Exploit Spatiotemporal Contextual Information for 3D Single Object Tracking via Memory Networks"
@@ -66,7 +66,7 @@ main:
     image: ./assets/img/teaser_SSCRS.png
 
   - title: "Exploiting semantic-level affinities with a mask-guided network for temporal action proposal in videos"
-    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu
+    authors: <strong>Yu Yang</strong>, Mengmeng Wang, Jianbiao Mei, Yong Liu
     conference_short: APIN
     conference: Applied Intelligence, 53(12), 15516-15536.
     pdf: https://link.springer.com/content/pdf/10.1007/s10489-022-04261-1.pdf
