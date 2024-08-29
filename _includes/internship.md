@@ -16,13 +16,12 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="company">{{ link.company }}</div>
-      <ul>
-        <li class="work1">{{ link.work1 }}</li>
-        <li class="work2">{{ link.work2 }}</li>
-      </ul>
-      </div>
-  </div>
+    <div class="company">{{ link.company }}</div>
+    <ul>
+      <li class="work1">{{ link.work1 }}</li>
+      <li class="work2">{{ link.work2 }}</li>
+    </ul>
+    </div>
 </div>
 </li>
 <br>

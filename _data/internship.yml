@@ -4,3 +4,8 @@ main:
     work1: 4D Label Auto-Annotation for Autonomous Driving
     work2: Autonomous Driving Simulator
     image: ./assets/img/huawei.png
+
+  - company: <strong>Apr. 2023 - Jul. 2023, Meituan Inc.</strong>
+    work1: Vision-Language Model Pre-training
+    work2: Vision-Language Models Applications
+    image: ./assets/img/meituan.png
