@@ -64,3 +64,12 @@ main:
     code: https://github.com/Jieqianyu/SSC-RS
     bibtex: https://ieeexplore.ieee.org/abstract/document/10341742
     image: ./assets/img/teaser_SSCRS.png
+
+  - title: "Exploiting semantic-level affinities with a mask-guided network for temporal action proposal in videos"
+    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu
+    conference_short: APIN
+    conference: Applied Intelligence, 53(12), 15516-15536.
+    pdf: https://link.springer.com/content/pdf/10.1007/s10489-022-04261-1.pdf
+    # code: https://github.com/Jieqianyu/SSC-RS
+    bibtex: https://link.springer.com/article/10.1007/s10489-022-04261-1
+    image: ./assets/img/teaser_MGNet.png
