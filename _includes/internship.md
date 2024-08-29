@@ -6,19 +6,19 @@
   {% for link in site.data.internship.main %}
 
   <div class="pub-row">
-    <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+    <div class="col-sm-3 abbr" style="position: relative; padding-right: 10px; padding-left: 10px;">
       {% if link.image %} 
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 40%; height: 40%;">
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 30%; height: auto;">
       {% if link.conference_short %} 
       <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
       {% endif %}
     </div>
-    <div class="col-sm-9" style="position: relative; padding-right: 15px; padding-left: 20px;">
-      <div class="company"><strong>{{ link.company }}</strong></div>
-      <ul>
-        <li class="work1">{{ link.work1 }}</li>
-        <li class="work2">{{ link.work2 }}</li>
+    <div class="col-sm-9" style="position: relative; padding-right: 10px; padding-left: 10px;">
+      <div class="company" style="margin-left: 0;">{{ link.company }}</div>
+      <ul style="padding-left: 0; margin-left: 0;">
+        <li class="work1" style="margin-left: 0;">{{ link.work1 }}</li>
+        <li class="work2" style="margin-left: 0;">{{ link.work2 }}</li>
       </ul>
     </div>
   </div>
