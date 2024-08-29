@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am currently a Ph.D. candidate in the Department of Control Science and Engineering at **Zhejiang University (ZJU)**, where I have been since 2021, under the supervision of [Prof. Yong Liu](https://april.zju.edu.cn/team/dr-yong-liu/) at the [April Lab](https://april.zju.edu.cn/). Currently, I am interning at **Riemann Lab**, **Huawei**.
+I am currently a Ph.D. candidate in the Department of Control Science and Engineering at **Zhejiang University (ZJU)**, where I have been since 2021, under the supervision of [Prof. Yong Liu](https://april.zju.edu.cn/team/dr-yong-liu/) at the [April Lab](https://april.zju.edu.cn/). Currently, I am interning at **Riemann 2012 Laboratory**, **Huawei**.
 
 ## Research Interests
 
@@ -19,5 +19,7 @@ I am currently a Ph.D. candidate in the Department of Control Science and Engine
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
 {% include_relative _includes/publications.md %}
+
+{% include_relative _includes/internship.md %}
 
 {% include_relative _includes/services.md %}
