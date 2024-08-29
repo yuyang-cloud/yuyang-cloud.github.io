@@ -19,4 +19,48 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://arxiv.org/abs/2408.15813
     notes: Under Review
-    image: ./assets/img/teaser_Drive_DQFormer.gif
+    image: ./assets/img/teaser_DQFormer.gif
+
+  - title: "Camera-based 3d semantic scene completion with sparse guidance network"
+    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Junyu Zhu, Xiangrui Zhao, Jongwon Ra, Laijian Li, Yong Liu
+    conference_short: arXiv
+    conference: arXiv, 2024.
+    pdf: https://arxiv.org/pdf/2312.05752.pdf
+    code: https://github.com/Jieqianyu/SGN
+    bibtex: https://arxiv.org/abs/2312.05752
+    notes: Under Review
+    image: ./assets/img/teaser_SGN.png
+
+  - title: "Exploit Spatiotemporal Contextual Information for 3D Single Object Tracking via Memory Networks"
+    authors: Jongwon Ra, MengMeng Wang, Jianbiao Mei, Shanqi Liu, <strong>Yu Yang</strong>, Yong Liu
+    conference_short: 3DV
+    conference: International Conference on 3D Vision <strong>(3DV)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10550656
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10550656
+    image: ./assets/img/teaser_SCTrack.png
+
+  - title: "CenterLPS: Segment Instances by Centers for LiDAR Panoptic Segmentation"
+    authors: Jianbiao Mei*, <strong>Yu Yang*</strong>, Mengmeng Wang, Zizhang Li, Xiaojun Hou, Jongwon Ra, Laijian Li, Yong Liu
+    conference_short: ACM MM
+    conference: Proceedings of the 31st ACM International Conference on Multimedia <strong>(ACM MM)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/abs/10.1145/3581783.3612080
+    bibtex: https://dl.acm.org/doi/abs/10.1145/3581783.3612080
+    image: ./assets/img/teaser_CenterLPS.png
+
+  - title: "PANet: LiDAR Panoptic Segmentation with Sparse Instance Proposal and Aggregation"
+    authors: Jianbiao Mei*, <strong>Yu Yang*</strong>, Mengmeng Wang, Xiaojun Hou, Laijian Li, Yong Liu
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2306.15348.pdf
+    code: https://github.com/Jieqianyu/PANet
+    bibtex: https://arxiv.org/abs/2306.15348
+    image: ./assets/img/teaser_PANet.png
+
+  - title: "SSC-RS: Elevate LiDAR Semantic Scene Completion with Representation Separation and BEV Fusion"
+    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu
+    conference_short: IROS
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2023.
+    pdf: https://arxiv.org/pdf/2306.15349.pdf
+    code: https://github.com/Jieqianyu/SSC-RS
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10341742
+    image: ./assets/img/teaser_SSCRS.png
