@@ -22,4 +22,11 @@ I am currently a Ph.D. candidate in the Department of Control Science and Engine
 
 {% include_relative _includes/internship.md %}
 
+## Awards and Honors
+
+- Academic Scholarship, Faculty Scholarship, 2023
+- National Scholarship, 2019
+- First Prize in the National Undergraduate Electronic Design Competition (Top 2.4%), 2019
+- Academician Scholarship, Faculty Scholarship, 2020,2019,2018
+
 {% include_relative _includes/services.md %}
