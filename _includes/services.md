@@ -4,6 +4,7 @@
 
 <ul style="margin:0 0 5px;">
   <!-- <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023-2024</autocolor></a></li> -->
+  <li><a href="https://aaai.org/conference/aaai/aaai-25/"><autocolor>AAAI Conference on Artificial Intelligence (AAAI) 2022-2024</autocolor></a></li>
   <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2023</autocolor></a></li>
   <li><a href="https://2024.acmmm.org/"><autocolor>ACM International Conference on Multimedia (ACM MM) 2023-2024</autocolor></a></li>
   <!-- <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li> -->
