@@ -1,0 +1,152 @@
+main:
+
+  - title: "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World"
+    authors:  Ao Liang*, Lingdong Kong*, Tianyi Yan*, Hongsi Liu*, <strong>Wesley Yang*</strong>, Ziqi Huang, Wei Yin, Jialong Zuo, Yixuan Hu, Dekai Zhu, Dongyue Lu, Youquan Liu, Guangfeng Jiang, Linfeng Li, Xiangtai Li, Long Zhou, Lai Xing Ng, Benoit R. Cottereau, Changxin Gao, Liang Pan, Wei Tsang Ooi, Ziwei Liu
+    conference_short: CVPR
+    venue_label: CVPR 2026 (Oral)
+    conference: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026.
+    workshop: VideoWorldModel Workshop @ CVPR 2026
+    pdf: https://arxiv.org/abs/2512.10958
+    page: https://worldbench.github.io/worldlens
+    code: https://github.com/worldbench/WorldLens
+    data: https://huggingface.co/worldbench/datasets
+    bibtex: https://arxiv.org/bibtex/2512.10958
+    image: ./assets/img/teaser_WorldLens.png
+
+  - title: "3D and 4D World Modeling: A Survey"
+    authors:  Lingdong Kong*, <strong>Wesley Yang*</strong>, Jianbiao Mei*, Youquan Liu*, Ao Liang*, Dekai Zhu*, Dongyue Lu*, Wei Yin*, Xiaotao Hu, Mingkai Jia, Junyuan Deng, Kaiwen Zhang, Yang Wu, Tianyi Yan, Shenyuan Gao, Song Wang, Linfeng Li, Liang Pan, Yong Liu, Jianke Zhu, Wei Tsang Ooi, Steven C. H. Hoi, Ziwei Liu
+    conference_short: Preprint
+    venue_label: Preprint, 2026
+    conference: Preprint, 2026.
+    pdf: https://arxiv.org/abs/2509.07996
+    page: https://worldbench.github.io/survey
+    code: https://github.com/worldbench/awesome-3d-4d-world-models
+    data: https://huggingface.co/spaces/worldbench/WorldLens
+    bibtex: https://arxiv.org/bibtex/2509.07996
+    image: ./assets/img/teaser_3D4Dsurvey.gif
+
+  - title: "Vision-Centric 4D Occupancy Forecasting and Planning via Implicit Residual World Models"
+    authors:  Jianbiao Mei*, <strong>Yu Yang*</strong>, Xuemeng Yang, Licheng Wen, Jiajun Lv, Botian Shi, Yong Liu
+    conference_short: ICRA
+    venue_label: ICRA 2026
+    conference: IEEE International Conference on Robotics & Automation (ICRA), 2026.
+    pdf: https://arxiv.org/abs/2510.16729
+    page: https://github.com/yuyang-cloud/Drive-OccWorld/tree/ir-wm
+    code: https://github.com/yuyang-cloud/Drive-OccWorld/tree/ir-wm
+    bibtex: https://arxiv.org/bibtex/2510.16729
+    image: ./assets/img/teaser_IR-WM.gif
+
+  - title: "LiDARCrafter: Dynamic 4D world modeling from LiDAR sequences"
+    authors:  Ao Liang, Youquan Liu, <strong>Yu Yang</strong>, Dongyue Lu, Linfeng Li, Lingdong Kong, Huaici Zhao, Wei Tsang Ooi
+    conference_short: AAAI
+    venue_label: AAAI 2026 (Oral)
+    conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2026.
+    workshop: Wild3D Workshop @ ICCV 2025
+    pdf: https://arxiv.org/abs/2508.03692
+    page: https://lidarcrafter.github.io/
+    code: https://github.com/worldbench/LiDARCrafter
+    data: https://huggingface.co/datasets/Pi3DET/data
+    bibtex: https://arxiv.org/bibtex/2508.03692
+    image: ./assets/img/teaser_LiDARCrafter.png
+
+  - title: "𝒳-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability"
+    authors: <strong>Yu Yang</strong>, Alan Liang, Jianbiao Mei, Yukai Ma, Yong Liu, Gim Hee Lee
+    conference_short: NeurIPS
+    venue_label: NeurIPS 2025
+    conference: Neural Information Processing Systems (NeurIPS), 2025.
+    pdf: https://arxiv.org/abs/2506.13558
+    page: https://x-scene.github.io/
+    code: https://github.com/yuyang-cloud/X-Scene
+    data: https://huggingface.co/datasets/yuyang-cloud/X-Scene/tree/main
+    bibtex: https://arxiv.org/bibtex/2506.13558
+    image: ./assets/img/teaser_X-Scene.gif
+
+  - title: "Driving in the Occupancy World: Vision-Centric 4D Occupancy Forecasting and Planning via World Models for Autonomous Driving"
+    authors: <strong>Yu Yang*</strong>, Jianbiao Mei*, Yukai Ma, Siliang Du, Wenqing Chen, Yijie Qian, Yuxiang Feng, Yong Liu
+    conference_short: AAAI
+    venue_label: AAAI 2025 (Oral)
+    conference: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025.
+    pdf: https://arxiv.org/abs/2408.14197
+    page: https://drive-occworld.github.io/
+    code: https://github.com/yuyang-cloud/Drive-OccWorld
+    bibtex: https://arxiv.org/bibtex/2408.14197
+    notes: Oral
+    image: ./assets/img/teaser_Drive_OccWorld.gif
+
+  - title: "DreamForge: Motion-Aware Autoregressive Video Generation for Multi-View Driving Scenes"
+    authors: Jianbiao Mei, Tao Hu, Xuemeng Yang, Licheng Wen, <strong>Yu Yang</strong>, Tiantian Wei, Yukai Ma, Min Dou, Botian Shi, Yong Liu
+    conference_short: Preprint
+    venue_label: Preprint, 2024
+    conference: Preprint, 2024.
+    pdf: https://arxiv.org/abs/2409.04003
+    page: https://pjlab-adg.github.io/DriveArena/dreamforge/
+    code: https://github.com/PJLab-ADG/DriveArena
+    bibtex: https://arxiv.org/bibtex/2409.04003
+    image: ./assets/img/teaser_DreamForge.gif
+
+  - title: "DQFormer: Toward Unified LiDAR Panoptic Segmentation With Decoupled Queries for Large-Scale Outdoor Scenes"
+    authors: <strong>Yu Yang*</strong>, Jianbiao Mei*, Siliang Du, Yilin Xiao, Huifeng Wu, Xiao Xu, Yong Liu
+    conference_short: TGRS
+    venue_label: TGRS 2025
+    conference: IEEE Transactions on Geoscience and Remote Sensing (TGRS), 63, 1-15, 2025.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10955713
+    code: https://github.com/yuyang-cloud/DQFormer
+    bibtex: https://arxiv.org/bibtex/2408.15813
+    image: ./assets/img/teaser_DQFormer.gif
+
+  - title: "Camera-based 3d semantic scene completion with sparse guidance network"
+    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Junyu Zhu, Xiangrui Zhao, Jongwon Ra, Laijian Li, Yong Liu
+    conference_short: TIP
+    venue_label: TIP 2024
+    conference: IEEE Transactions on Image Processing (TIP), 33, 5468-5481.
+    pdf: https://ieeexplore.ieee.org/document/10694710
+    code: https://github.com/Jieqianyu/SGN
+    bibtex: https://arxiv.org/bibtex/2312.05752
+    image: ./assets/img/teaser_SGN.png
+
+  - title: "Exploit Spatiotemporal Contextual Information for 3D Single Object Tracking via Memory Networks"
+    authors: Jongwon Ra, MengMeng Wang, Jianbiao Mei, Shanqi Liu, <strong>Yu Yang</strong>, Yong Liu
+    conference_short: 3DV
+    venue_label: 3DV 2024
+    conference: International Conference on 3D Vision <strong>(3DV)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10550656
+    bibtex: https://ieeexplore.ieee.org/document/10550656
+    image: ./assets/img/teaser_SCTrack.png
+
+  - title: "CenterLPS: Segment Instances by Centers for LiDAR Panoptic Segmentation"
+    authors: Jianbiao Mei*, <strong>Yu Yang*</strong>, Mengmeng Wang, Zizhang Li, Xiaojun Hou, Jongwon Ra, Laijian Li, Yong Liu
+    conference_short: ACM MM
+    venue_label: ACM MM 2023
+    conference: Proceedings of the 31st ACM International Conference on Multimedia <strong>(ACM MM)</strong>, 2023.
+    pdf: https://dl.acm.org/doi/abs/10.1145/3581783.3612080
+    bibtex: https://dl.acm.org/doi/abs/10.1145/3581783.3612080
+    image: ./assets/img/teaser_CenterLPS.png
+
+  - title: "PANet: LiDAR Panoptic Segmentation with Sparse Instance Proposal and Aggregation"
+    authors: Jianbiao Mei*, <strong>Yu Yang*</strong>, Mengmeng Wang, Xiaojun Hou, Laijian Li, Yong Liu
+    conference_short: IROS
+    venue_label: IROS 2023
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2023.
+    pdf: https://arxiv.org/abs/2306.15348
+    code: https://github.com/Jieqianyu/PANet
+    bibtex: https://arxiv.org/bibtex/2306.15348
+    image: ./assets/img/teaser_PANet.png
+
+  - title: "SSC-RS: Elevate LiDAR Semantic Scene Completion with Representation Separation and BEV Fusion"
+    authors: Jianbiao Mei, <strong>Yu Yang</strong>, Mengmeng Wang, Tianxin Huang, Xuemeng Yang, Yong Liu
+    conference_short: IROS
+    venue_label: IROS 2023
+    conference: IEEE/RSJ International Conference on Intelligent Robots and Systems <strong>(IROS)</strong>, 2023.
+    pdf: https://arxiv.org/abs/2306.15349
+    code: https://github.com/Jieqianyu/SSC-RS
+    bibtex: https://arxiv.org/bibtex/2306.15349
+    image: ./assets/img/teaser_SSCRS.png
+
+  - title: "Exploiting semantic-level affinities with a mask-guided network for temporal action proposal in videos"
+    authors: <strong>Yu Yang</strong>, Mengmeng Wang, Jianbiao Mei, Yong Liu
+    conference_short: APIN
+    venue_label: APIN 2023
+    conference: Applied Intelligence, 53(12), 15516-15536.
+    pdf: https://link.springer.com/article/10.1007/s10489-022-04261-1
+    bibtex: https://link.springer.com/article/10.1007/s10489-022-04261-1
+    image: ./assets/img/teaser_MGNet.png

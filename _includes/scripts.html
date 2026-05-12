@@ -1,0 +1,72 @@
+<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var navLinks = Array.prototype.slice.call(document.querySelectorAll('.greedy-nav a[href*="#"]'));
+    var sectionLinks = navLinks
+      .map(function(link) {
+        var hash = link.getAttribute('href').split('#')[1];
+        var section = hash ? document.getElementById(hash) : null;
+        return section ? { link: link, section: section } : null;
+      })
+      .filter(Boolean);
+
+    function setActive(activeLink) {
+      navLinks.forEach(function(link) {
+        var isActive = link === activeLink;
+        link.classList.toggle('is-active', isActive);
+        if (link.parentElement) {
+          link.parentElement.classList.toggle('is-active', isActive);
+        }
+      });
+    }
+
+    function updateActiveNav() {
+      var active = sectionLinks[0];
+      var offset = 90;
+
+      sectionLinks.forEach(function(item) {
+        if (item.section.getBoundingClientRect().top <= offset) {
+          active = item;
+        }
+      });
+
+      if (active) {
+        setActive(active.link);
+      }
+    }
+
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        setActive(link);
+      });
+    });
+
+    updateActiveNav();
+    window.addEventListener('scroll', updateActiveNav, { passive: true });
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var avatar = document.querySelector('.js-avatar-toggle');
+    if (!avatar) return;
+
+    function toggleAvatar() {
+      var primary = avatar.getAttribute('data-avatar-primary');
+      var secondary = avatar.getAttribute('data-avatar-secondary');
+      avatar.src = avatar.src.indexOf(secondary) !== -1 ? primary : secondary;
+    }
+
+    avatar.addEventListener('click', toggleAvatar);
+    avatar.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        toggleAvatar();
+      }
+    });
+  });
+</script>
+
+{% include analytics.html %}
+{% include fetch_google_scholar_stats.html %}

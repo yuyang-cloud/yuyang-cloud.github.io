@@ -1,0 +1,61 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="http://schema.org/Person" class="profile_box">
+  {% if author.avatar %}
+  <div class="author__avatar">
+    <img
+      src="{{ author.avatar | relative_url }}"
+      class="author__avatar js-avatar-toggle"
+      alt="{{ author.name }}"
+      role="button"
+      tabindex="0"
+      data-avatar-primary="{{ author.avatar | relative_url }}"
+      data-avatar-secondary="{{ author.avatar_alt | default: 'assets/img/avatar2.png' | relative_url }}">
+  </div>
+  {% endif %}
+
+  <div class="author__content">
+    <h3 class="author__name">
+      <span itemprop="name">{{ author.name }}</span>
+      {% if author.name_zh %}<span class="author__name-zh">{{ author.name_zh }}</span>{% endif %}
+    </h3>
+
+    {% if author.position %}
+    <p class="author__position">{{ author.position }}</p>
+    {% endif %}
+
+    {% if author.bio %}
+    <p class="author__bio">{{ author.bio }}</p>
+    {% endif %}
+  </div>
+
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      {% if author.employer %}
+      <li>
+        {% if author.employer_link %}
+        <a href="{{ author.employer_link }}"><i class="fas fa-fw fa-university" aria-hidden="true"></i> {{ author.employer }}</a>
+        {% else %}
+        <span><i class="fas fa-fw fa-university" aria-hidden="true"></i> {{ author.employer }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+
+      {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      {% endif %}
+
+      {% if author.googlescholar %}
+      <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      {% endif %}
+
+      {% if author.email %}
+      <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email: {{ author.email }}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,179 @@
+# Site Settings
+locale                   : "en-US"
+title                    : "Yu Yang"
+title_separator          : "-"
+subtitle                 :
+name                     : "Yu Yang"
+description              : "Personal homepage of Yu Yang, featuring research on generative world models, autonomous driving, 3D/4D scene generation, and 3D computer vision."
+url                      : "https://yuyang-cloud.github.io"
+baseurl                  : ""
+repository               : "yuyang-cloud/yuyang-cloud.github.io"
+google_scholar_stats_use_cdn : true
+
+# Analytics
+google_analytics_id      :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Author
+author:
+  name             : "Yu Yang"
+  name_zh          : "杨 煜"
+  avatar           : "assets/img/avatar1.png"
+  avatar_alt       : "assets/img/avatar2.png"
+  bio              : "Zhejiang University"
+  position         : "Ph.D. Student"
+  location         : "Hangzhou / Singapore"
+  employer         : "Zhejiang University"
+  employer_link    : "https://www.zju.edu.cn/english/"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=Ydsf5ZEAAAAJ"
+  email            : "yu.yang@zju.edu.cn"
+  researchgate     :
+  uri              : "https://yuyang-cloud.github.io"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "yuyang-cloud"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      :
+  lastfm           :
+  linkedin         :
+  dblp             :
+  orcid            :
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+# Navigation language labels
+languages:
+  - en
+default_lang: "en"
+t:
+  en:
+    home: "Home"
+    about: "About"
+    research: "Research"
+    news: "News"
+    publications: "Publications"
+    experience: "Experience"
+    awards: "Awards"
+    services: "Services"
+
+# Reading Files
+include:
+  - .htaccess
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .github
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - minimal-light.gemspec
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

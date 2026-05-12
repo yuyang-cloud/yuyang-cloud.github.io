@@ -1,0 +1,12 @@
+# main:
+
+  # - company: <strong>Riemann 2012 Laboratory,  Huawei</strong>
+  #   work1: <strong>·</strong>  4D Label Auto-Annotation for Autonomous Driving
+  #   work2: <strong>·</strong>  Autonomous Driving Simulator
+  #   work3: <strong>·</strong>  Generative City Map and AD Simulation
+  #   image: ./assets/img/huawei.png
+
+  # - company: <strong>Meituan Inc.</strong>
+  #   work1: <strong>·</strong>  Vision-Language Model Pre-training
+  #   work2: <strong>·</strong>  Vision-Language Models Applications
+  #   image: ./assets/img/meituan.png
