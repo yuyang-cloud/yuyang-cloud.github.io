@@ -1,5 +1,15 @@
 main:
 
+  - title: "SPIRAL: Self-Evolving Action-Conditioned Video Generation via Reflective Planning Agents"
+    authors:  <strong>Yu Yang*</strong>, Yue Liao*, Jianbiao Mei*, Baisen Wang*, Xuemeng Yang, Licheng Wen, Jiangning Zhang, Xiangtai Li, Liang Lv, Hanlin Chen, Botian Shi, Yong Liu, Shuicheng Yan, Gim Hee Lee
+    conference_short: Preprint
+    venue_label: Preprint, 2026
+    conference: Preprint, 2026.
+    pdf: https://arxiv.org/abs/2603.08403
+    page: https://yuyang-cloud.github.io/spiral/
+    bibtex: https://arxiv.org/bibtex/2603.08403
+    image: ./assets/img/teaser_spiral.gif
+
   - title: "WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World"
     authors:  Ao Liang*, Lingdong Kong*, Tianyi Yan*, Hongsi Liu*, <strong>Wesley Yang*</strong>, Ziqi Huang, Wei Yin, Jialong Zuo, Yixuan Hu, Dekai Zhu, Dongyue Lu, Youquan Liu, Guangfeng Jiang, Linfeng Li, Xiangtai Li, Long Zhou, Lai Xing Ng, Benoit R. Cottereau, Changxin Gao, Liang Pan, Wei Tsang Ooi, Ziwei Liu
     conference_short: CVPR

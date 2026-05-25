@@ -633,6 +633,11 @@ body {
   box-shadow: 0 2px 8px rgba(1, 47, 99, 0.10) !important;
 }
 
+.paper-box-image img[src$="teaser_spiral.gif"] {
+  object-fit: contain !important;
+  background: #f7f8fa !important;
+}
+
 .paper-box:hover .paper-box-image img {
   transform: none !important;
   box-shadow: 0 2px 8px rgba(1, 47, 99, 0.10) !important;
