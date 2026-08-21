@@ -15,7 +15,7 @@ My name is <span class="accent-text">Yu Yang (杨煜)</span>. I am currently a P
 From Feb 2025 to Feb 2026, I was a visiting Ph.D. student at <i class="fas fa-university"></i> **National University of Singapore (NUS)**, working under the guidance of [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/cs/people/leegh/) at the [CVRP Lab](https://www.comp.nus.edu.sg/~leegh/).
 
 <div class="quote-accent">
-I'm <span class="primary-gradient-text">open to research collaborations</span> and currently <span class="primary-gradient-text">seeking career opportunities</span> starting in early 2027. Please feel free to reach out!
+I'm <span class="primary-gradient-text">open to research collaborations</span> and currently <span class="primary-gradient-text">seeking postdoctoral opportunities</span> starting in early 2027. Please feel free to reach out!
 </div>
 
 <span class='anchor' id='research'></span>
