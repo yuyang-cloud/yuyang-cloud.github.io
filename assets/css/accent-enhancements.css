@@ -677,6 +677,11 @@ body {
   background: #f7f8fa !important;
 }
 
+.paper-box-image img[src$="teaser_Evidence-RL.png"] {
+  object-fit: contain !important;
+  background: #f7f8fa !important;
+}
+
 .paper-box-image img[src$="teaser_ProxyOPD.png"] {
   object-fit: contain !important;
   padding: 6px !important;

@@ -15,7 +15,7 @@ My name is <span class="accent-text">Yu Yang (杨煜)</span>. I am currently a P
 From Feb 2025 to Feb 2026, I was a visiting Ph.D. student at <i class="fas fa-university"></i> **National University of Singapore (NUS)**, working under the guidance of [Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/cs/people/leegh/) at the [CVRP Lab](https://www.comp.nus.edu.sg/~leegh/).
 
 <div class="quote-accent">
-I'm <span class="primary-gradient-text">open to research collaborations</span> and currently <span class="primary-gradient-text">seeking postdoctoral opportunities</span> starting in early 2027. Please feel free to reach out!
+I'm <span class="primary-gradient-text">open to research collaborations</span> and planning to <span class="primary-gradient-text">pursue a postdoc</span> starting in early 2027. Please feel free to reach out!
 </div>
 
 <span class='anchor' id='research'></span>
@@ -62,6 +62,8 @@ Furthermore, I leverage a strong background in **3D computer vision**, with a fo
 
 <div class="news-list" markdown="1">
 
+- *2026.09*: &nbsp;Our papers [SPIRAL](https://yuyang-cloud.github.io/spiral/), [HoloCode](https://yuyang-cloud.github.io/), [Evidence-RL](https://evidencerl.github.io/) are accepted by <span class="accent-text">NeurIPS 2026</span>.
+- *2026.08*: &nbsp;Our paper [IterCAD](https://arxiv.org/abs/2606.13368) is accepted by <span class="accent-text">EMNLP 2026</span>.
 - *2026.04*: &nbsp;Our paper [WorldLens](https://worldbench.github.io/worldlens) is accepted by <span class="accent-text">CVPR 2026 (Oral)</span>.
 - *2026.02*: &nbsp;We are excited to release [<span class="accent-text">3D and 4D World Modeling: A Survey</span>](https://github.com/worldbench/awesome-3d-4d-world-models).
 - *2026.02*: &nbsp;Our paper [IR-WM](https://github.com/yuyang-cloud/Drive-OccWorld/tree/ir-wm) is accepted by <span class="accent-text">ICRA 2026</span>.
