@@ -919,8 +919,8 @@ body {
 }
 
 .service-list li {
-  margin-bottom: 0.24rem;
-  line-height: 1.36;
+  margin-bottom: 0.08rem;
+  line-height: 1.32;
 }
 
 @media (max-width: 768px) {
